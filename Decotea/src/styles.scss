@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+@import "../src/app/styles/customs.scss";
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+$color-principal: #ccc;
+body{
+    background: $color-principal;
+}
