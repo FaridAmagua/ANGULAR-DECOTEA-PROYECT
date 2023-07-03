@@ -1,17 +1,44 @@
 *{
-    overflow: hidden;
 }
 .banner-image{
     background-image:url('../../../assets/images/ImgHome.jpg');
     background-size: cover;
 }
-
-
 .tittle{
     color: #ffffff;
     font-size: 80px;
 }
-
+.tittle2{
+    color: black;
+    font-size: 80px;
+}
 .title-card{
     font-size: 50;
+}
+//carousel 
+.carousel{
+padding-top: 3%;
+padding-bottom: 10%;
+}
+.carousel__contenedor{
+    position: relative;
+}
+.carousel__siguiente,.carousel__anterior {
+position: absolute;
+display: block;
+width: 30px;
+height: 30px;
+border: none;
+cursor: pointer;
+line-height: 30px;
+top: calc(50% - 10px);
+color:black;
+background:gray;
+opacity: 20%;
+}
+.carousel__anterior{
+    left: -30px;
+}
+.carousel__siguiente{
+    right: -30px;
 }

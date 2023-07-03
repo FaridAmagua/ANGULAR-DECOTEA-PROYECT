@@ -13,60 +13,41 @@
     </div>
 </section>
 <section>
-    <div class="container-fluid">
-        <div class="container">
-            <div>
-              <div class="carousel">
-                <div class="carousel__contenedor">
-                  <button aria-label="Anterior" class="carousel__anterior">
-                    <span class="material-symbols-outlined">
-                      chevron_left
-                      </span>            </button>
-          
-                  <div class="carousel__lista">
-                    <div class="carousel__elemento">
-                      <a href="#!" data-bs-toogle="modal" data-bs-target="#modalImage1">                  
-                        <img src="../../../assets/images/Arbol otoño.png"   alt="flor1">
-                      </a>
-                      <p>Rock and Roll Hall of Fame</p>
-                    </div>
-                    <div class="carousel__elemento">
-                      <img src="../../../assets/images/Arbol velas.png"   alt="flor2">
-                      <p>Constitution Square - Tower I</p>
-                    </div>
-                    <div class="carousel__elemento">
-                      <img src="../../../assets/images/CANDELABRO IMAGEN.png"  alt="flor3">
-                      <p>Empire State Building</p>
-                    </div>
-                    <div class="carousel__elemento">
-                      <img src="../../../assets/images/FLOR BODA.png"  alt="flor4">
-                      <p>Harmony Tower</p>
-                    </div>
-            
-                    <div class="carousel__elemento">
-                      <img src="../../../assets/images/CANDELABRO IMAGEN.png"  alt="flor5">
-                      <p>Empire State Building</p>
-                    </div>
-                    <div class="carousel__elemento">
-                      <img src="../../../assets/images/tierra.png"  alt="flor6">
-                      <p>Harmony Tower</p>
-                    </div>
-                
-            
-                  </div>
-          
-                  <button aria-label="Siguiente" class="carousel__siguiente">
-                    <span class="material-symbols-outlined">
-                      chevron_right
-                      </span>            
-                    </button>
-                </div>
-          
-                <div role="tablist" class="carousel__indicadores"></div>
-              </div>
-              
-            </div>
-          </div>
+    <div class="container">
+      <h1 class="tittle2">
+        Nuestros productos
+      </h1>
     </div>
-    
+    <div class="container">
+      <div class="carousel">
+        <div class="carousel__contenedor">
+          <button aria-label="Anterior" class="carousel__anterior">
+            <fa-icon [icon]="faChevronLeft"></fa-icon>
+          </button>
+          <!-- carousel -->
+            <div class="carousel__lista">
+              <div class="carousel__elementos">
+                <img src="../../../assets/images/Arbol otoño.png" alt="">
+              </div>
+              <div class="carousel__elementos">
+                <img src="../../../assets/images/Arbol otoño.png" alt="">
+              </div>
+              <div class="carousel__elementos">
+                <img src="../../../assets/images/Arbol otoño.png" alt="">
+              </div>
+              <div class="carousel__elementos">
+                <img src="../../../assets/images/Arbol otoño.png" alt="">
+              </div>
+              <div class="carousel__elementos">
+                <img src="../../../assets/images/Arbol otoño.png" alt="">
+              </div>
+            </div>
+          <!-- carousel -->
+          <button aria-label="Siguiente" class="carousel__siguiente">
+            <fa-icon [icon]="faChevronRight"></fa-icon>
+          </button>
+        </div>
+        <div role="tablist" class="carousel__indicadores"></div>
+      </div>
+    </div>
 </section>
