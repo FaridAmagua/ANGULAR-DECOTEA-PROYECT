@@ -31,12 +31,19 @@ cursor: pointer;
 line-height: 30px;
 top: calc(50% - 10px);
 color:black;
-background:gray;
-opacity: 20%;
+background:white;
+opacity: 40%;
+}
+.carousel__siguiente:hover,
+.carousel__anterior:hover {
+
 }
 .carousel__anterior{
     left: -30px;
 }
 .carousel__siguiente{
     right: -30px;
+}
+.carousel__lista{
+    overflow: hidden;
 }
