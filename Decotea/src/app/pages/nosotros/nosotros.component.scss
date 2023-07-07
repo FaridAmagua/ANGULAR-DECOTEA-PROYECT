@@ -1,0 +1,51 @@
+
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Ajusta la altura según tus necesidades */
+  overflow: hidden;
+    background: linear-gradient(to bottom, black, white); /* Definición del gradiente */
+          // background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(42, 36, 43, 0.03));
+}
+.video-container video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   
+   
+}
+.video-container  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  font-size: 24px;
+              // background: linear-gradient(rgba(5, 7, 12, 0.75),rgba(42, 36, 43, 0.03));
+
+}
+.text-overlay{
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to bottom, rgb(0, 0, 0), rgba(255, 255, 255, 0.02)); /* Definición del gradiente con transparencia */
+}
+.tittle-text {
+  color: #ffffff;
+  font-size: 65px;
+  padding-top: calc(30vh - 100px); /* Utilizar calc() para centrar y restar padding */
+
+}
+.text-container{
+padding-left: 10%;
+padding-right: 10%;
+
+}
+h4{
+padding-top: 20px;
+font-family: 'Playfair Display';
+font-size: 30px;
+text-align: center;
+}

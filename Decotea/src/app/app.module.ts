@@ -5,7 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
-import { NosotrosComponent } from './pages/nosotros/nosotros/nosotros.component';
+import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 
 @NgModule({
   declarations: [
