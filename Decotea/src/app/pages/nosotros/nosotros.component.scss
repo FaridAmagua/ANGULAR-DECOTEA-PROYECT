@@ -34,6 +34,7 @@
 }
 .tittle-text {
   color: #ffffff;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-size: 65px;
   padding-top: calc(30vh - 100px); /* Utilizar calc() para centrar y restar padding */
 
@@ -46,6 +47,6 @@ padding-right: 10%;
 h4{
 padding-top: 20px;
 font-family: 'Playfair Display';
-font-size: 30px;
-text-align: center;
+font-size: 40px;
+text-align: justify;
 }
