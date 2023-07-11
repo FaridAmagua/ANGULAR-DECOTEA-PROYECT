@@ -60,3 +60,19 @@ img{
 	font-family: 'Playfair Display';
 	font-size: 17px;
 }
+// footer
+.footer__tittle{
+	font-size: 20px;
+	color: #ffffff;
+}
+.img__social{
+	width: 35px;
+	margin-right: 10px;
+}
+
+@media screen and (min-width: 990px) and (max-width: 1200px) {
+	.card-text{
+		font-size: 16px;
+	}
+
+}

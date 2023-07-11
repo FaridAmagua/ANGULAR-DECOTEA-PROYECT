@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { faChevronLeft } from '@fortawesome/free-solid-svg-icons';
 import { faChevronRight } from '@fortawesome/free-solid-svg-icons';
 
+
 import { ScriptloaderService } from 'src/app/services/scriptloader.service';
 @Component({
   selector: 'app-home',
