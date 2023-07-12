@@ -34,19 +34,19 @@
 }
 .tittle-text {
   color: #ffffff;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: 65px;
+  font-family: 'Playfair Display';
+  font-size: clamp(3em,5vw,1em);
   padding-top: calc(30vh - 100px); /* Utilizar calc() para centrar y restar padding */
 
 }
 .text-container{
-padding-left: 10%;
-padding-right: 10%;
-
+margin-right: 2em;
+margin-left: 2em;
 }
-h4{
+.text-nosotros{
 padding-top: 20px;
 font-family: 'Playfair Display';
-font-size: 40px;
-text-align: justify;
+font-size:calc(1vw + .68em);
+text-align: start;
 }
+
