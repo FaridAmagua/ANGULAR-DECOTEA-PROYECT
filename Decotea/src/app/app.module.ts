@@ -7,6 +7,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NosotrosComponent } from './pages/nosotros/nosotros.component';
 import { ProductosComponent } from './pages/productos/productos.component';
+import { ContactoComponent } from './pages/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { ProductosComponent } from './pages/productos/productos.component';
     NavbarComponent,
     NosotrosComponent,
     ProductosComponent,
+    ContactoComponent,
   ],
   imports: [
     BrowserModule,
