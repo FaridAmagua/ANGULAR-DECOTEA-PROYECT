@@ -6,7 +6,7 @@ img{
 	width: 100%;
 	}
 .banner-image{
-    background-image:url('../../../assets/images/ImgHome.jpg');
+    background-image:url('../../../assets/images/home/ImgHome.jpg');
     background-size: cover;
 }
 
@@ -16,14 +16,22 @@ img{
 }
 .tittle2{
 	text-align: center;
-    color: black;
-	font-size: 50px;
+    color: black;	
+	font-size: 4rem;
 	font-family: 'Playfair Display';
 	padding-bottom: 10px;
 }	
+//SEGUNDA SECTION
+
+.second__title{
+	font-family: 'Playfair Display';
+	font-size: 4rem;
+
+}
+/* --- --- CAROUSEL --- --- */
 
 
-// SEGUNDA SECTION
+// TERCERA SECTION
 .contenedor-primero{
 	padding-top: 50px;
 }
@@ -65,10 +73,11 @@ font-family: 'Playfair Display';
 	text-align: center;
 	font-family: 'Playfair Display';
 	font-size: 4rem;
+	padding-bottom: 40px;
 }
 .description-text{
-	font-size: 1.7rem;
-	text-align: center;
+	font-size: 1.8rem;
+	text-align: justify;
 }
 
 #footer__container{
