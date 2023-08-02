@@ -4,7 +4,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { ProductosComponent } from './pages/productos/productos.component';
 import { ContactoComponent } from './pages/contacto/contacto.component';
 
@@ -19,7 +18,6 @@ import { ContactoComponent } from './pages/contacto/contacto.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    FontAwesomeModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
