@@ -1,19 +1,19 @@
-h2{
-	font-size: 30px;
-}
-img{
-	border-radius: 0%;
-	width: 100%;
-	}
 .banner-image{
     background-image:url('../../../assets/images/home/ImgHome.jpg');
     background-size: cover;
 }
-
 .tittle{
     color: #ffffff;
     font-size: 4rem;
+	margin: 0;
+	
 }
+.subtitle{
+    color: #ffffff;
+	font-size: 1.5rem;
+	
+}
+
 .tittle2{
 	text-align: center;
     color: black;	
@@ -22,44 +22,40 @@ img{
 	padding-bottom: 10px;
 }	
 //SEGUNDA SECTION
-
+.vertical-line {
+	border-right: 1px solid #ccc;
+  }
 .second__title{
+	margin-top: 20px;
 	font-family: 'Playfair Display';
 	font-size: 4rem;
+	text-align: center;
 
 }	
 /* --- --- CAROUSEL --- --- */
-.carousel__contendor{
-	position: relative;
-}
-.carousel__elemento{
-	height: auto;
-	width: 500px;
-}
-.carousel__anterior,.carousel__siguiente{
-	position: absolute;
-	display: block;
-	width: 30px;
-	height: 30px;
-	border: none;
-	top: calc(50% - 35px);
-	cursor: pointer;
-	line-height: 30px;
-	text-align: center;
-	background: none;
-	color: black;
-	// opacity: 60%;
-}
 
-.carousel__anterior{
-	left: -30px;
-}
-.carousel__siguiente{
-	right:-30px;
-}
-.carusel__lista{
-	overflow: hidden;
-}
+.carousel__elemento img {
+	max-width: 100%; /* Ajusta el ancho máximo de las imágenes al tamaño del contenedor */
+	height: auto;    /* Mantiene la proporción original de las imágenes */
+	max-height: 450px; /* Establece la altura máxima deseada para las imágenes */
+	width: auto;     /* Ajusta automáticamente el ancho según la altura máxima */
+	display: block; /* Para que los márgenes automáticos funcionen correctamente */
+	margin: 0 auto; /* Margen automático en horizontal */
+  }
+  .carousel__elemento p{
+	text-align: center;
+  }
+
+  .carousel__anterior,
+  .carousel__siguiente {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	background: transparent;
+	border: none;
+	cursor: pointer;
+  }
+
 
 // TERCERA SECTION
 .contenedor-primero{
@@ -85,10 +81,11 @@ font-family: 'Playfair Display';
 	padding-bottom: 40px;
 }
 .description-text{
-	font-size: 1.8rem;
+	font-size: 1.5rem;
 	text-align: justify;
 }
 
+///footer
 #footer__container{
 	background-color: black;
 }

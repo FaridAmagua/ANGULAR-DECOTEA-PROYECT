@@ -1,17 +1,7 @@
-/* You can add global styles to this file, and also import other style files */
-@import "../src/app/styles/customs.scss";
-@import "../node_modules/bootstrap/scss/bootstrap";
-
-$color-principal: #fff;
-body{
-    background: $color-principal;
-}   
-
-$grid-breakpoints: (
-  xs: 0,
-  sm: 576px,
-  md: 768px,
-  lg: 992px,
-  xl: 1200px,
-  xxl: 1400px
-);
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}

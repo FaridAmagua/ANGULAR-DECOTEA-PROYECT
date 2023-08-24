@@ -1,41 +1,78 @@
-<div class="container">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-          <div>
-            <span class="material-symbols-outlined">
-              filter_vintage
-            </span>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-white">
+  <div class="container-fluid d-flex align-items-center justify-content-between">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item" style="padding-right: 10px;">
+          <a class="nav-link active d-flex" aria-current="page" href="#">
+            <img src="../../../assets/images/home/flor.png" alt="" class="me-2">
+            <div class="d-flex align-items-center">DECOTEA</div>
+          </a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link" href="#">Flores</a>
+        </li>   
+        <li class="nav-item">
+          <a class="nav-link" href="#">Globos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Tartas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Catálogo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Eventos
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Eventos públicos o privados</a>
+            <a class="dropdown-item" href="#">Cumpleaños u otros servicios</a>
+            <a class="dropdown-item" href="#">Cursos de flores o globos</a>
+
           </div>
-          <a class="navbar-brand" href="#" id="font-title">DECOTEA</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNav"
-            aria-controls="navbarNav"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-    
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <div class="mx-auto"></div>
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a [routerLink]="'/'" class="nav-link " href="#">INICIO</a>        
-              </li>              
-              <li class="nav-item">
-                <a [routerLink]="'/productos'" class="nav-link " href="#">PRODUCTOS</a>        
-              </li>
-              <li class="nav-item">
-                <a ñ class="nav-link " href="#">LOGIN</a>        
-              </li> 
-              <li class="nav-item">
-                <a [routerLink]="'/contact'" class="nav-link " href="#">CONTACTO</a>        
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav> 
+        </li>
+        <!-- <li class="nav-item">
+          <a class="nav-link" href="#">Contacto</a>
+        </li> -->
+      </ul>
+      <ul class="container center-vertical">
+        <li class="nav-item ultimo-item d-none d-lg-block d-flex flex-grow-1" style="margin: 0;">
+          <form action="" class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="¿Qué estás buscando?" aria-label="Search" style="width: 60%;">
+            <a href="#" class="btn btn-sm " role="button" aria-pressed="true" style="color: #D1D1D1">
+              <img src="../../../assets/images/svg/search-outline.svg" alt="" width="70%">
+            </a>
+          </form>
+        </li>      </ul>
+        <ul class="navbar-nav d-flex align-items-start">                       
+        <li class="nav-item">
+          <a class="nav-link" href="#"> 
+            <img src="../../../assets/images/svg/cart-outline.svg" alt="logo-shop" class="logo-shop" style="height: 29px; ">        
+          </a>
+        </li>  
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="../../../assets/images/svg/person-circle-outline.svg" alt="logo-shop" class="logo-shop" style="height: 29px; ">        
+            </a>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Datos de perfil</a>
+              <a class="dropdown-item" href="#">Gestión de envios</a>
+              <a class="dropdown-item" href="#">Métodos de pago</a>            
+            </div>
+          </li>    
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="../../../assets/images/svg/help-circle-outline.svg" alt="logo-shop" class="logo-shop" style="height: 30px; ">
+            </a>
+            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Preguntas frecuetes</a>
+              <a class="dropdown-item" href="#">Formulario de ayuda o consultas</a>
+            </div>
+          </li>    
+        </ul>      
+    </div>
   </div>
+</nav>

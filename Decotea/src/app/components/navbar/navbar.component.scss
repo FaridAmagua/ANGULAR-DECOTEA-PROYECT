@@ -1,3 +1,60 @@
-.nav-link{
-    color: white;
+.header{
+  display: flex;
+  height: 60px;
+  background-color: whitesmoke;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
 }
+.navbar{
+  border-bottom: 1px solid #D1D1D1; /* Borde en la parte inferior */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Sombra debajo */
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+ul li a img{
+  height: 30px;
+}
+a{
+  color: black;
+}
+.logo-shop{
+  color: #FFFFFF;
+
+}
+input{
+  border-radius: 10px; /* Ajusta el valor para redondear los bordes */
+}
+.nav-item{
+  display: flex;
+  align-items: center;
+  
+}
+.center-vertical {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+}
+
+// .navbar-form {
+//   display: flex;
+//   flex-grow: 1;
+// }
+// .navbar-form .form-control {
+//   width: 100%;
+// }
+
+// .search-input {
+//     background-image: url('../../../assets/svg/search-outline.svg');
+//     background-repeat: no-repeat;
+//     background-position: calc(100% - 25px) center; /* Ajusta el valor para mover a la izquierda */
+//     background-size: 20px 20px; /* Ajusta el tamaño del icono */
+//     border-radius: 20px; /* Ajusta el valor para redondear los bordes */
+//     border-color: transparent;
+//     padding-right: 52px;
+//     // width: 400px;
+//   } 
+
+
